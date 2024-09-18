@@ -9,7 +9,6 @@ import { isNumberKey, validateRange } from '../../utils/utils';
 function Products({dispatch}){
     const { data, loading, error } = useQuery(ALL_PRODUCTS);
     const productsStorage = useSelector((state) => state.products);
-    console.log(productsStorage, "se dispara");
     const changeProducts = (e, product) => {
         const value = parseInt(e.target.value);
         if(!isNaN(value) && value > 0){
