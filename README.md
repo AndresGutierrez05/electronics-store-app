@@ -19,7 +19,7 @@ This is an example or little shopping cart created using the following dependenc
 - redux: ^5.0.1,
 - styled-components: ^6.1.13,
 
-Using apollo client to connect to the Api and using redux to managment the page state, and using styled-components to css 
+Using apollo client to connect to the Api (https://github.com/AndresGutierrez05/GraphQL.ElectronicsStore) and using redux to managment the page state, and using styled-components to css 
 
 ### `npm install`
 
@@ -27,11 +27,10 @@ Runs to install all dependences
 
 ### `npm start`
 
-Before to run this command change or verify this uri it runs correctly the backend-service or change the url
+Before to run this command change or verify this uri it runs correctly the backend-service or change the url in `index.js`
 
-`
-    uri : "https://localhost:7259/graphql/"
-`
+![image](https://github.com/user-attachments/assets/0a568707-6827-48ae-9197-af5013568260)
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
